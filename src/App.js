@@ -3,8 +3,6 @@ import React, { useState } from "react";
 // import { render } from "@testing-library/react";
 
 function TodosComponent(){
-  // store in the local storage
-  myStorage = window.localStorage;
   // store the current todo is typing
   const [currentTodo, setCurrentTodo] = useState("");
   // store all the todos entered
